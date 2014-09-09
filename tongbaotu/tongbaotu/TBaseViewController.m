@@ -26,6 +26,9 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    _myLabel = [[UILabel alloc]initWithFrame:CGRectMake(0, 0, 300, 40)];
+    [self.view addSubview:_myLabel];
+    
     // Do any additional setup after loading the view.
 }
 

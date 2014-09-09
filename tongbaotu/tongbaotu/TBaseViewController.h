@@ -10,4 +10,8 @@
 
 @interface TBaseViewController : UIViewController
 
+@property (strong,nonatomic) UILabel * testLabel ;
+
+@property (strong,nonatomic) UILabel * myLabel ;
+
 @end
