@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4C2CF0DD19BEA811004411E2 /* TBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C2CF0DC19BEA811004411E2 /* TBaseViewController.m */; };
 		4CCAB4CA19B6D4D2007E3283 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CCAB4C919B6D4D2007E3283 /* Foundation.framework */; };
 		4CCAB4CC19B6D4D2007E3283 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CCAB4CB19B6D4D2007E3283 /* CoreGraphics.framework */; };
 		4CCAB4CE19B6D4D2007E3283 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CCAB4CD19B6D4D2007E3283 /* UIKit.framework */; };
@@ -34,6 +35,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4C2CF0DB19BEA811004411E2 /* TBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBaseViewController.h; sourceTree = "<group>"; };
+		4C2CF0DC19BEA811004411E2 /* TBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBaseViewController.m; sourceTree = "<group>"; };
 		4CCAB4C619B6D4D2007E3283 /* tongbaotu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tongbaotu.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CCAB4C919B6D4D2007E3283 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		4CCAB4CB19B6D4D2007E3283 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -119,6 +122,8 @@
 				4CCAB4DF19B6D4D3007E3283 /* TViewController.m */,
 				4CCAB4E119B6D4D3007E3283 /* Images.xcassets */,
 				4CCAB4D019B6D4D3007E3283 /* Supporting Files */,
+				4C2CF0DB19BEA811004411E2 /* TBaseViewController.h */,
+				4C2CF0DC19BEA811004411E2 /* TBaseViewController.m */,
 			);
 			path = tongbaotu;
 			sourceTree = "<group>";
@@ -252,6 +257,7 @@
 			files = (
 				4CCAB4D619B6D4D3007E3283 /* main.m in Sources */,
 				4CCAB4DA19B6D4D3007E3283 /* TAppDelegate.m in Sources */,
+				4C2CF0DD19BEA811004411E2 /* TBaseViewController.m in Sources */,
 				4CCAB4E019B6D4D3007E3283 /* TViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -457,6 +463,7 @@
 				4CCAB4FA19B6D4D3007E3283 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4CCAB4FB19B6D4D3007E3283 /* Build configuration list for PBXNativeTarget "tongbaotuTests" */ = {
 			isa = XCConfigurationList;
@@ -465,6 +472,7 @@
 				4CCAB4FD19B6D4D3007E3283 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
